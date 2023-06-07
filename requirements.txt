@@ -1,7 +1,0 @@
-streamlit
-requests
-pandas 
-numpy
-vectorbt
-talib
-streamlit_option_menu
