@@ -10,7 +10,7 @@ from streamlit_option_menu import option_menu
 import plotly.graph_objects as go
 
 
-
+##############
 st.set_page_config(page_title="Vectorbt Example App",page_icon="🧊",layout="wide",initial_sidebar_state="expanded",
 menu_items={'About': ". This is an *extremely* cool app!"})
 
