@@ -1,0 +1,8 @@
+streamlit==1.21.0
+requests==2.28.1
+pandas==1.5.2
+pandas-ta==0.3.14b0
+numpy==1.23.5
+vectorbt==0.24.3
+streamlit-option-menu==0.3.2
+talib==0.4.22
