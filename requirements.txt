@@ -5,4 +5,3 @@ pandas-ta==0.3.14b0
 numpy==1.23.5
 vectorbt==0.24.3
 streamlit-option-menu==0.3.2
-TA-Lib==0.4.26
