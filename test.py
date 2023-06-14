@@ -26,7 +26,7 @@ if selected2 == "RSI":
   tick_interval = st.selectbox("Select tick interval", ["1m", "3m", "5m", "15m", "30m", "1h", "2h", "4h", "6h", "12h", "1d", "1w"])
 
  # Make API request
-  url = 'https://api.binance.com/api/v3/klines?symbol='+market+'&interval='+tick_interval
+  url = 'https://api.binance.us/api/v3/klines?symbol='+market+'&interval='+tick_interval
   response = requests.get(url)
 
   if response.status_code == 200:
@@ -96,7 +96,7 @@ if selected2 == "Ema Crossover":
  tick_interval = st.selectbox("Select tick interval", ["1m", "3m", "5m", "15m", "30m", "1h", "2h", "4h", "6h", "12h", "1d", "1w"])
 
  # Make API request
- url = 'https://api.binance.com/api/v3/klines?symbol='+market+'&interval='+tick_interval
+ url = 'https://api.binance.us/api/v3/klines?symbol='+market+'&interval='+tick_interval
  response = requests.get(url)
 
  if response.status_code == 200:
